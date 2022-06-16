@@ -8,7 +8,7 @@ public class Runner {
 
 		op.Addition(4, 7);
 		op.Subtract(25, 12);
-		op.Divide(84, 4);
+		op.Divide(4, 28);
 		op.Multiply(9, 6);
 	}
 }
