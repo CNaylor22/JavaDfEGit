@@ -1,17 +1,50 @@
 package com.qa.VehicleExercise;
 
-public class car extends Vehicle {
+public class Car extends Vehicle {
 
-	public String make;
-	public String model;
-	public String colour;
-	public car(String make, String model, String colour) {
-super();
-		this.make = make;
-		this.model = model;
-		this.colour = colour;
+	private int numOfWheels;
+	private boolean hasAirCon;
+
+	public Car(String make, String model, String colour, int numOfWheels, boolean hasAirCon) {
+		super(make, model, colour);
+		this.numOfWheels = numOfWheels;
+		this.hasAirCon = hasAirCon;
+	}
+
+	public int getNumOfWheels() {
+		return numOfWheels;
+	}
+
+	public void setNumOfWheels(int numOfWheels) {
+		this.numOfWheels = numOfWheels;
+
+	}
+
+	public boolean ishasAirCon() {
+		return hasAirCon;
+
+	}
+
+	public void setAirCon(boolean airCon, boolean hasAirCon) {
+		this.hasAirCon = hasAirCon;
+	
+	
+	
+	}
+
+	@Override
+	public String toString() {
+		return "Car [numOfWheels=" + numOfWheels + ", hasAirCon=" + hasAirCon + ", Make = " + getMake()
+				+ ", Model = " + getModel() + ", Colour= " + getColour() + "]";
 	}
 	
 	
-}
-}
+		@Override
+		public void calculateBill() {
+			System.out.println("The bill is £200");
+	
+	}
+
+	
+	}
+
