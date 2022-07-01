@@ -1,4 +1,4 @@
-package com.qa.VehicleExercise;
+package com.qa.vehicleexercise;
 
 public class Runner {
 

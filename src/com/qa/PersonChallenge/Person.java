@@ -1,4 +1,4 @@
-package com.qa.PersonChallenge;
+package com.qa.personchallenge;
 
 public class Person {
 

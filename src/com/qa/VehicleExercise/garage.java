@@ -1,4 +1,4 @@
-package com.qa.VehicleExercise;
+package com.qa.vehicleexercise;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.qa.StringManipulation;
+package com.qa.stringmanipulation;
 
 public class manipulationrunner {
 

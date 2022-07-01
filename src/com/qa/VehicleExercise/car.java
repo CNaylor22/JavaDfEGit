@@ -1,4 +1,4 @@
-package com.qa.VehicleExercise;
+package com.qa.vehicleexercise;
 
 public class Car extends Vehicle {
 
@@ -41,7 +41,7 @@ public class Car extends Vehicle {
 	
 		@Override
 		public void calculateBill() {
-			System.out.println("The bill is £200");
+			System.out.println("The bill for the car is £200");
 	
 	}
 

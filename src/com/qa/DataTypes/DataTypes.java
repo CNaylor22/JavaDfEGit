@@ -1,4 +1,4 @@
-package com.qa.DataTypes;
+package com.qa.datatypes;
 
 public class DataTypes {
 

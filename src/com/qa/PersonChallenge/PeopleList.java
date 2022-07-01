@@ -1,4 +1,4 @@
-package com.qa.PersonChallenge;
+package com.qa.personchallenge;
 
 import java.util.ArrayList;
 
